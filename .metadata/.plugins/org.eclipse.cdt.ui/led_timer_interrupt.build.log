@@ -1,0 +1,10 @@
+18:58:12 **** Incremental Build of configuration Debug for project led_timer_interrupt ****
+make -j20 all 
+arm-none-eabi-size  led_timer_interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  35756	    124	   4124	  40004	   9c44	led_timer_interrupt.elf
+Finished building: default.size.stdout
+ 
+
+18:58:12 Build Finished. 0 errors, 0 warnings. (took 179ms)
+

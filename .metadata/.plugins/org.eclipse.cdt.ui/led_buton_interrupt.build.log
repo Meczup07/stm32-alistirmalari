@@ -1,0 +1,10 @@
+19:02:36 **** Incremental Build of configuration Debug for project led_buton_interrupt ****
+make -j20 all 
+arm-none-eabi-size  led_buton_interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  35756	    124	   4124	  40004	   9c44	led_buton_interrupt.elf
+Finished building: default.size.stdout
+ 
+
+19:02:36 Build Finished. 0 errors, 0 warnings. (took 177ms)
+
