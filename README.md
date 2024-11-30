@@ -4,6 +4,9 @@
 STM32f407G-DISC geliştirme kartı için yapılan basit alıştırmalar.
 Farklı kartlara kodlar çekilerek uygulamalar denenebilir.
 
+![image](https://github.com/user-attachments/assets/0d45851e-03c5-47fd-baa7-2f85aeb12203)
+
+
 Çalışma Konuları
 1) Interrupt
 2) Timer
