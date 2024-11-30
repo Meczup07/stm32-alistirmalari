@@ -11,3 +11,4 @@ Farklı kartlara kodlar çekilerek uygulamalar denenebilir.
 4) DAC
 5) Mod alma
 6) RTOS
+7) QT Designer ile STM32 arasında haberleşecek arayüz tasarımı
