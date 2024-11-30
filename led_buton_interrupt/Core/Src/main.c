@@ -66,22 +66,6 @@ void MX_USB_HOST_Process(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-/*Callback fonksiyonu, bir olay gerçekleştiğinde otomatik olarak çağrılan bir geri çağırma (callback) mekanizmasıdır.
- STM32 gibi gömülü sistemlerde Callback fonksiyonları, genellikle donanım olaylarını
- (örneğin, bir kesmenin tetiklenmesi, bir zamanlayıcının süresinin dolması veya bir UART mesajının alınması gibi)
- işlemek için kullanılır.*/
-
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
-
-	if (GPIO_Pin == GPIO_PIN_0) {
-
-		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
-    }
-	else {
-
-		__NOP();
-	}
-}
 
 /* USER CODE END 0 */
 

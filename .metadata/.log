@@ -2088,3 +2088,33 @@ java.lang.Exception: Resource '/led_timer_interrupt' does not exist.
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-11-29 19:04:01.990
 !MESSAGE Indexed 'led_timer_interrupt' (36 sources, 138 headers) in 1.63 sec: 14,742 declarations; 70,828 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.28%)
+!SESSION 2024-11-30 09:48:18.126 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-11-30 09:48:33.409
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-11-30 09:48:33.417
+!MESSAGE Log4j2 initialized with config file C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-11-30 09:48:43.682
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-11-30 11:12:48.649
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 9 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-11-30 11:12:48.650
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-11-30 11:12:48.657
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 9 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-11-30 11:12:48.657
+!MESSAGE Existing sessions are:
+
+!ENTRY org.eclipse.core.jobs 2 2 2024-11-30 13:36:45.894
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob

@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "adc.h"
 #include "dac.h"
 #include "i2c.h"
 #include "i2s.h"
@@ -38,7 +39,7 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 
-uint8_t buf[50];
+uint16_t dac_value = 0;
 
 /* USER CODE END PD */
 
@@ -98,12 +99,9 @@ int main(void)
   MX_DAC_Init();
   MX_USART2_UART_Init();
   MX_USB_DEVICE_Init();
-  /* USER CODE BEGIN 2 */
-
-  uint16_t dac_value = 0;
-
+  MX_ADC1_Init();
   HAL_DAC_Start(&hdac, DAC_CHANNEL_2);
-
+  /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
 
@@ -111,16 +109,31 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  dac_value = (dac_value + 1) % 4096; // 12-bit bir DAC değeri
+	 /*dac_value = (dac_value + 1) % 4096; // 16-bit bir DAC değeri
 	  HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, dac_value);
-	  sprintf(buf, "DAC Value: %d\n", dac_value);
-	  CDC_Transmit_FS(buf, sizeof(buf));
-	  //HAL_UART_Transmit(&huart2, buf, sizeof(buf), 100);
+	  HAL_Delay(500);
 
-	 HAL_Delay(500);
+	  HAL_UART_Transmit(&huart2, buf, sizeof(buf), 100);*/
+
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	  //HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, 4095); //logic analyzerda okuma için deneme
+
+	  HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_L, dac_value);
+
+	  if (dac_value < 4095) {
+
+		  dac_value ++;
+	  }
+
+	  else {
+
+		  dac_value = 0;
+	  }
+
+	  HAL_Delay(10);
   }
 
 
