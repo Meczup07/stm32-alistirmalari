@@ -19,4 +19,5 @@ Farklı kartlara kodlar çekilerek uygulamalar denenebilir.
 
 
 STM32F407G-DISC User Manual : https://www.st.com/resource/en/user_manual/um1472-discovery-kit-with-stm32f407vg-mcu-stmicroelectronics.pdf
+
 STM32F407G-DISC Schematic Documentary: https://www.st.com/resource/en/schematic_pack/mb997-f407vgt6-b02_schematic.pdf
