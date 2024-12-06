@@ -22,6 +22,7 @@
 #include "dac.h"
 #include "i2c.h"
 #include "i2s.h"
+#include "tim.h"
 #include "usart.h"
 #include "usb_device.h"
 #include "gpio.h"
@@ -39,7 +40,8 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 
-uint16_t dac_value = 0;
+
+uint32_t dac_value = 0;
 
 /* USER CODE END PD */
 
@@ -99,7 +101,6 @@ int main(void)
   MX_DAC_Init();
   MX_USART2_UART_Init();
   MX_USB_DEVICE_Init();
-  MX_ADC1_Init();
   HAL_DAC_Start(&hdac, DAC_CHANNEL_2);
   /* USER CODE BEGIN 2 */
 
@@ -109,19 +110,21 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	 /*dac_value = (dac_value + 1) % 4096; // 16-bit bir DAC değeri
-	  HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, dac_value);
-	  HAL_Delay(500);
+	  HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, 4095); //logic analyzerda okuma için 3.2V deneme
 
-	  HAL_UART_Transmit(&huart2, buf, sizeof(buf), 100);*/
+	  HAL_Delay(2000);
+
+	  HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, 1);
+
+	  HAL_Delay(2000);
 
 
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  //HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_R, 4095); //logic analyzerda okuma için deneme
 
-	  HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_L, dac_value);
+
+	  /*HAL_DAC_SetValue(&hdac, DAC_CHANNEL_2, DAC_ALIGN_12B_L, dac_value); //düzgün artış
 
 	  if (dac_value < 4095) {
 
@@ -133,7 +136,7 @@ int main(void)
 		  dac_value = 0;
 	  }
 
-	  HAL_Delay(10);
+	  HAL_Delay(10);*/
   }
 
 
