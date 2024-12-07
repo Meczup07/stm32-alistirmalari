@@ -1,0 +1,10 @@
+13:07:06 **** Incremental Build of configuration Debug for project ADC-DAC ****
+make -j20 all 
+arm-none-eabi-size  ADC-DAC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38356	    124	   4132	  42612	   a674	ADC-DAC.elf
+Finished building: default.size.stdout
+ 
+
+13:07:06 Build Finished. 0 errors, 0 warnings. (took 182ms)
+
