@@ -52,7 +52,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 	else
 	{
 		count = 250;
-		i = 1;
+		i = 0;
 	}
 }
 
