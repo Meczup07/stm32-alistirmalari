@@ -4,8 +4,9 @@
 STM32F407G-DISC geliştirme kartı için yapılan basit alıştırmalar.
 Farklı kartlara kodlar çekilerek uygulamalar denenebilir. STM32 üzerinde yeni başlayanlara yol göstermesi açısından bu repo oluşturulmuştur.
 
-<img src="https://github.com/user-attachments/assets/0d45851e-03c5-47fd-baa7-2f85aeb12203" alt="image" width="400" style="display:block; margin-left:auto; margin-right:auto;">
-
+<div style="text-align:center;">
+  <img src="https://github.com/user-attachments/assets/0d45851e-03c5-47fd-baa7-2f85aeb12203" alt="image" width="520">
+</div>
 
 Çalışma Konuları
 1) Interrupt
@@ -23,7 +24,9 @@ STM32F407G-DISC Schematic Documentary: https://www.st.com/resource/en/schematic_
 
 1)Interrupt: Mikrodenetleyicide belirli bir olay gerçekleştiği zaman, o olay olurken dönen iş akışını durdurup belirli olay özelinde işlem yapmasını sağlayan mekanizmadır. Bütün bilgisayar ve mikrodenetleyicilerde kesme bulunur. Önceliği yüksek işlerin mikrodenetleyici tarafından ana program akışı kesilerek yapılmasına kesme (interrupt) denir. Normal program akışı, kesme işleyicisi (interrupt handler) tamamlandıktan sonra kaldığı yerden devam eder.
    
-![image](https://github.com/user-attachments/assets/d9d497c9-0247-4d5b-a22f-655ce04255e3)
+<div style="text-align:center;">
+  <img src="https://github.com/user-attachments/assets/d9d497c9-0247-4d5b-a22f-655ce04255e3" alt="image" width="400">
+</div>
 
 Kullanılan STM32F407G-Disc kartında; 82 adet maskelenebilir kesme kanalı, programlanabilir 16 öncelik seviyesi, kısa gecikme süreli kesme erişimi, güç kontrol kesmeleri ve sistem kontrol kesmeleri bulunmaktadır.
 
