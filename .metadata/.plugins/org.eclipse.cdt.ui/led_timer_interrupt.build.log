@@ -1,4 +1,4 @@
-20:12:56 **** Incremental Build of configuration Debug for project led_timer_interrupt ****
+20:25:15 **** Incremental Build of configuration Debug for project led_timer_interrupt ****
 make -j20 all 
 arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
 arm-none-eabi-gcc -o "led_timer_interrupt.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_timer_interrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -7,11 +7,11 @@ Finished building target: led_timer_interrupt.elf
 arm-none-eabi-size  led_timer_interrupt.elf 
 arm-none-eabi-objdump -h -S led_timer_interrupt.elf  > "led_timer_interrupt.list"
    text	   data	    bss	    dec	    hex	filename
-  38508	    124	   4276	  42908	   a79c	led_timer_interrupt.elf
+  38544	    124	   4276	  42944	   a7c0	led_timer_interrupt.elf
 Finished building: default.size.stdout
  
 Finished building: led_timer_interrupt.list
  
 
-20:12:56 Build Finished. 0 errors, 0 warnings. (took 844ms)
+20:25:16 Build Finished. 0 errors, 0 warnings. (took 843ms)
 
