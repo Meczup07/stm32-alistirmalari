@@ -4684,3 +4684,166 @@ java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()"
 2024-12-12 20:12:31,159 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 541mS.
 2024-12-12 20:12:31,160 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
 2024-12-12 20:12:31,162 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-12-12 20:24:10,596 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,472x225,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-12-12 20:24:12,078 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-12-12 20:24:13,479 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 780740456 Bytes (1073741824)
+2024-12-12 20:24:13,532 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 800663400 Bytes (1073741824)
+2024-12-12 20:24:13,858 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 840466672 Bytes (1073741824)
+2024-12-12 20:24:13,934 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2024-12-12 20:24:13,934 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8
+2024-12-12 20:24:13,934 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8
+2024-12-12 20:24:13,934 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2S
+2024-12-12 20:24:13,934 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-12 20:24:13,934 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-12 20:24:13,934 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2024-12-12 20:24:13,934 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USB_OTG_FS
+2024-12-12 20:24:13,934 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-12 20:24:13,934 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USB_HOST
+2024-12-12 20:24:13,935 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-12 20:24:13,935 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-12-12 20:24:13,936 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-12-12 20:24:13,937 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-12-12 20:24:13,974 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\license.tmp_save
+2024-12-12 20:24:14,039 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\license.tmp
+2024-12-12 20:24:14,071 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\gpio.c_save
+2024-12-12 20:24:14,140 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\gpio.c
+2024-12-12 20:24:14,159 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\gpio.h_save
+2024-12-12 20:24:14,198 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\gpio.h
+2024-12-12 20:24:14,228 [WARN] IPConfigManager:3005 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2024-12-12 20:24:14,232 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2024-12-12 20:24:14,288 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp
+2024-12-12 20:24:14,290 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2024-12-12 20:24:14,318 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp
+2024-12-12 20:24:14,320 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2024-12-12 20:24:14,366 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2024-12-12 20:24:14,368 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2024-12-12 20:24:14,413 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp
+2024-12-12 20:24:14,546 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\i2c.c_save
+2024-12-12 20:24:14,596 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\i2c.c
+2024-12-12 20:24:14,599 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\i2c.h_save
+2024-12-12 20:24:14,634 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\i2c.h
+2024-12-12 20:24:14,659 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\i2s.c_save
+2024-12-12 20:24:14,705 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\i2s.c
+2024-12-12 20:24:14,708 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\i2s.h_save
+2024-12-12 20:24:14,738 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\i2s.h
+2024-12-12 20:24:14,750 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\spi.c_save
+2024-12-12 20:24:14,791 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\spi.c
+2024-12-12 20:24:14,793 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\spi.h_save
+2024-12-12 20:24:14,821 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\spi.h
+2024-12-12 20:24:14,832 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\tim.c_save
+2024-12-12 20:24:14,893 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\tim.c
+2024-12-12 20:24:14,896 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\tim.h_save
+2024-12-12 20:24:14,923 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\tim.h
+2024-12-12 20:24:14,936 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\App\usb_host.c_save
+2024-12-12 20:24:14,972 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\App\usb_host.c
+2024-12-12 20:24:14,974 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\App\usb_host.h_save
+2024-12-12 20:24:15,004 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\App\usb_host.h
+2024-12-12 20:24:15,014 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_conf.h_save
+2024-12-12 20:24:15,045 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_conf.h
+2024-12-12 20:24:15,054 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_conf.c_save
+2024-12-12 20:24:15,115 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_conf.c
+2024-12-12 20:24:15,119 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_platform.c_save
+2024-12-12 20:24:15,153 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_platform.c
+2024-12-12 20:24:15,156 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_platform.h_save
+2024-12-12 20:24:15,190 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_platform.h
+2024-12-12 20:24:15,204 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\stm32f4xx_it.c_save
+2024-12-12 20:24:15,329 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\stm32f4xx_it.c
+2024-12-12 20:24:15,332 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\stm32f4xx_it.h_save
+2024-12-12 20:24:15,376 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\stm32f4xx_it.h
+2024-12-12 20:24:15,392 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\stm32f4xx_hal_msp.c_save
+2024-12-12 20:24:15,434 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\stm32f4xx_hal_msp.c
+2024-12-12 20:24:15,436 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\system.tmp_save
+2024-12-12 20:24:15,463 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\system.tmp
+2024-12-12 20:24:15,474 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-12-12 20:24:15,527 [INFO] CodeEngine:335 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\stm32f4xx_hal_conf.h
+2024-12-12 20:24:15,553 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\main.h_save
+2024-12-12 20:24:15,596 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\main.h
+2024-12-12 20:24:15,606 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\main.c_save
+2024-12-12 20:24:15,655 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\main.c
+2024-12-12 20:24:15,891 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 137mS.
+2024-12-12 20:24:15,894 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-12-12 20:24:15,929 [INFO] ConfigFileManager:1531 - The Die is : DIE413
+2024-12-12 20:24:16,498 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 604mS.
+2024-12-12 20:24:16,499 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-12-12 20:24:16,505 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-12-12 20:24:53,396 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-12-12 20:24:53,774 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 727630528 Bytes (1073741824)
+2024-12-12 20:24:53,815 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 747786712 Bytes (1073741824)
+2024-12-12 20:24:54,114 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 788974272 Bytes (1073741824)
+2024-12-12 20:24:54,210 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2024-12-12 20:24:54,210 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8
+2024-12-12 20:24:54,210 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8
+2024-12-12 20:24:54,210 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2S
+2024-12-12 20:24:54,210 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-12 20:24:54,210 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-12 20:24:54,210 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2024-12-12 20:24:54,210 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USB_OTG_FS
+2024-12-12 20:24:54,210 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-12 20:24:54,210 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USB_HOST
+2024-12-12 20:24:54,211 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-12 20:24:54,212 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-12-12 20:24:54,214 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-12-12 20:24:54,214 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-12-12 20:24:54,256 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\license.tmp_save
+2024-12-12 20:24:54,308 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\license.tmp
+2024-12-12 20:24:54,340 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\gpio.c_save
+2024-12-12 20:24:54,386 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\gpio.c
+2024-12-12 20:24:54,390 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\gpio.h_save
+2024-12-12 20:24:54,429 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\gpio.h
+2024-12-12 20:24:54,454 [WARN] IPConfigManager:3005 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2024-12-12 20:24:54,458 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2024-12-12 20:24:54,505 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp
+2024-12-12 20:24:54,507 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2024-12-12 20:24:54,534 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp
+2024-12-12 20:24:54,535 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2024-12-12 20:24:54,575 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2024-12-12 20:24:54,577 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2024-12-12 20:24:54,616 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp
+2024-12-12 20:24:54,731 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\i2c.c_save
+2024-12-12 20:24:54,773 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\i2c.c
+2024-12-12 20:24:54,776 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\i2c.h_save
+2024-12-12 20:24:54,805 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\i2c.h
+2024-12-12 20:24:54,815 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\i2s.c_save
+2024-12-12 20:24:54,854 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\i2s.c
+2024-12-12 20:24:54,857 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\i2s.h_save
+2024-12-12 20:24:54,884 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\i2s.h
+2024-12-12 20:24:54,895 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\spi.c_save
+2024-12-12 20:24:54,934 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\spi.c
+2024-12-12 20:24:54,936 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\spi.h_save
+2024-12-12 20:24:54,965 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\spi.h
+2024-12-12 20:24:54,976 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\tim.c_save
+2024-12-12 20:24:55,035 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\tim.c
+2024-12-12 20:24:55,038 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\tim.h_save
+2024-12-12 20:24:55,067 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\tim.h
+2024-12-12 20:24:55,081 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\App\usb_host.c_save
+2024-12-12 20:24:55,117 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\App\usb_host.c
+2024-12-12 20:24:55,126 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\App\usb_host.h_save
+2024-12-12 20:24:55,156 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\App\usb_host.h
+2024-12-12 20:24:55,166 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_conf.h_save
+2024-12-12 20:24:55,195 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_conf.h
+2024-12-12 20:24:55,204 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_conf.c_save
+2024-12-12 20:24:55,256 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_conf.c
+2024-12-12 20:24:55,259 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_platform.c_save
+2024-12-12 20:24:55,292 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_platform.c
+2024-12-12 20:24:55,294 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_platform.h_save
+2024-12-12 20:24:55,323 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\USB_HOST\Target\usbh_platform.h
+2024-12-12 20:24:55,345 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\stm32f4xx_it.c_save
+2024-12-12 20:24:55,398 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\stm32f4xx_it.c
+2024-12-12 20:24:55,401 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\stm32f4xx_it.h_save
+2024-12-12 20:24:55,432 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\stm32f4xx_it.h
+2024-12-12 20:24:55,449 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\stm32f4xx_hal_msp.c_save
+2024-12-12 20:24:55,505 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\stm32f4xx_hal_msp.c
+2024-12-12 20:24:55,507 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\system.tmp_save
+2024-12-12 20:24:55,535 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\MXTmpFiles\system.tmp
+2024-12-12 20:24:55,550 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-12-12 20:24:55,608 [INFO] CodeEngine:335 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\stm32f4xx_hal_conf.h
+2024-12-12 20:24:55,633 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\main.h_save
+2024-12-12 20:24:55,669 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Inc\main.h
+2024-12-12 20:24:55,679 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\main.c_save
+2024-12-12 20:24:55,726 [INFO] CodeEngine:279 - Generated code: C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\Core\Src\main.c
+2024-12-12 20:24:55,882 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 87mS.
+2024-12-12 20:24:55,884 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-12-12 20:24:55,917 [INFO] ConfigFileManager:1531 - The Die is : DIE413
+2024-12-12 20:24:56,394 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 510mS.
+2024-12-12 20:24:56,395 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-12-12 20:24:56,406 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
