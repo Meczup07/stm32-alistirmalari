@@ -21,8 +21,10 @@ STM32F407G-DISC User Manual : https://www.st.com/resource/en/user_manual/um1472-
 
 STM32F407G-DISC Schematic Documentary: https://www.st.com/resource/en/schematic_pack/mb997-f407vgt6-b02_schematic.pdf
 
-1) Interrupt: Mikrodenetleyicide belirli bir olay gerçekleştiği zaman, o olay olurken dönen iş akışını durdurup belirli olay özelinde işlem yapmasını sağlayan mekanizmadır. Bütün bilgisayar ve mikrodenetleyicilerde kesme bulunur. Önceliği yüksek işlerin mikrodenetleyici tarafından ana program akışı kesilerek yapılmasına kesme (interrupt) denir. Normal program akışı, kesme işleyicisi (interrupt handler) tamamlandıktan sonra kaldığı yerden devam eder.
+1)Interrupt: Mikrodenetleyicide belirli bir olay gerçekleştiği zaman, o olay olurken dönen iş akışını durdurup belirli olay özelinde işlem yapmasını sağlayan mekanizmadır. Bütün bilgisayar ve mikrodenetleyicilerde kesme bulunur. Önceliği yüksek işlerin mikrodenetleyici tarafından ana program akışı kesilerek yapılmasına kesme (interrupt) denir. Normal program akışı, kesme işleyicisi (interrupt handler) tamamlandıktan sonra kaldığı yerden devam eder.
    
 ![image](https://github.com/user-attachments/assets/d9d497c9-0247-4d5b-a22f-655ce04255e3)
+
+Kullanılan STM32F407G-Disc kartında; 82 adet maskelenebilir kesme kanalı, programlanabilir 16 öncelik seviyesi, kısa gecikme süreli kesme erişimi, güç kontrol kesmeleri ve sistem kontrol kesmeleri bulunmaktadır.
 
    
