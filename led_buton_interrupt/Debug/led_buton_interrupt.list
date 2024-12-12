@@ -377,7 +377,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 	else
 	{
 		count = 250;
-		i = 1;
+		i = 0;
 	}
 }
  80004dc:	e021      	b.n	8000522 <HAL_GPIO_EXTI_Callback+0x6a>
@@ -419,9 +419,9 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
  8000516:	4b07      	ldr	r3, [pc, #28]	@ (8000534 <HAL_GPIO_EXTI_Callback+0x7c>)
  8000518:	22fa      	movs	r2, #250	@ 0xfa
  800051a:	601a      	str	r2, [r3, #0]
-		i = 1;
+		i = 0;
  800051c:	4b04      	ldr	r3, [pc, #16]	@ (8000530 <HAL_GPIO_EXTI_Callback+0x78>)
- 800051e:	2201      	movs	r2, #1
+ 800051e:	2200      	movs	r2, #0
  8000520:	601a      	str	r2, [r3, #0]
 }
  8000522:	bf00      	nop

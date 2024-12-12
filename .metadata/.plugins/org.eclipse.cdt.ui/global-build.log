@@ -1,28 +1,35 @@
-13:06:32 **** Incremental Build of configuration Debug for project ADC-DAC ****
+20:12:32 **** Incremental Build of configuration Debug for project led_buton_interrupt ****
 make -j20 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "ADC-DAC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\ADC-DAC\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC-DAC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: ADC-DAC.elf
- 
-arm-none-eabi-size  ADC-DAC.elf 
-arm-none-eabi-objdump -h -S ADC-DAC.elf  > "ADC-DAC.list"
+arm-none-eabi-size  led_buton_interrupt.elf 
    text	   data	    bss	    dec	    hex	filename
-  38356	    124	   4132	  42612	   a674	ADC-DAC.elf
+  35896	    128	   4128	  40152	   9cd8	led_buton_interrupt.elf
 Finished building: default.size.stdout
  
-Finished building: ADC-DAC.list
- 
-13:06:35 **** Incremental Build of configuration Debug for project ADC-DAC ****
+20:12:35 **** Incremental Build of configuration Debug for project led_buton_interrupt ****
 make -j20 all 
-arm-none-eabi-size  ADC-DAC.elf 
+arm-none-eabi-size  led_buton_interrupt.elf 
    text	   data	    bss	    dec	    hex	filename
-  38356	    124	   4132	  42612	   a674	ADC-DAC.elf
+  35896	    128	   4128	  40152	   9cd8	led_buton_interrupt.elf
 Finished building: default.size.stdout
  
-13:07:06 **** Incremental Build of configuration Debug for project ADC-DAC ****
+20:12:44 **** Incremental Build of configuration Debug for project led_buton_interrupt ****
 make -j20 all 
-arm-none-eabi-size  ADC-DAC.elf 
+arm-none-eabi-size  led_buton_interrupt.elf 
    text	   data	    bss	    dec	    hex	filename
-  38356	    124	   4132	  42612	   a674	ADC-DAC.elf
+  35896	    128	   4128	  40152	   9cd8	led_buton_interrupt.elf
 Finished building: default.size.stdout
+ 
+20:12:56 **** Incremental Build of configuration Debug for project led_timer_interrupt ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc -o "led_timer_interrupt.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\PC_6285_\STM32CubeIDE\workspace_1.16.1\led_timer_interrupt\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_timer_interrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_timer_interrupt.elf
+ 
+arm-none-eabi-size  led_timer_interrupt.elf 
+arm-none-eabi-objdump -h -S led_timer_interrupt.elf  > "led_timer_interrupt.list"
+   text	   data	    bss	    dec	    hex	filename
+  38508	    124	   4276	  42908	   a79c	led_timer_interrupt.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_timer_interrupt.list
  
