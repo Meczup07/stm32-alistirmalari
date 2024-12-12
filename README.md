@@ -4,9 +4,8 @@
 STM32F407G-DISC geliştirme kartı için yapılan basit alıştırmalar.
 Farklı kartlara kodlar çekilerek uygulamalar denenebilir. STM32 üzerinde yeni başlayanlara yol göstermesi açısından bu repo oluşturulmuştur.
 
-<div style="text-align:center;">
-  <img src="https://github.com/user-attachments/assets/0d45851e-03c5-47fd-baa7-2f85aeb12203" alt="image" width="500">
-</div>
+<img src="https://github.com/user-attachments/assets/0d45851e-03c5-47fd-baa7-2f85aeb12203" alt="image" width="400" style="display:block; margin-left:auto; margin-right:auto;">
+
 
 Çalışma Konuları
 1) Interrupt
